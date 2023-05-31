@@ -16,7 +16,6 @@ owm = OWM(api)
 mgr = owm.weather_manager()
 degree = u'\N{DEGREE SIGN}'
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title('Weather Forecast ' + "\U0001F600" )
 st.write('Write the name of a City and select the Temperature Unit and Graph Type from the sidebar')
 
